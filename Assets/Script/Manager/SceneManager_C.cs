@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 
 public enum Scene
-{ Menu, Main, Battle }
+{ Menu, Main, Battle, Training, Quiz }
 
 
 public class SceneManager_C : MonoBehaviour
@@ -17,7 +17,7 @@ public class SceneManager_C : MonoBehaviour
     {
         if (instance == null)
         {
-            GameObject go = new GameObject("SceneManager");
+            GameObject go = new GameObject("@SceneManager");
             instance = go.AddComponent<SceneManager_C>();
 
             DontDestroyOnLoad(go);

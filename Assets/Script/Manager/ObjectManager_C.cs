@@ -43,13 +43,21 @@ public class ObjectManager_C : MonoBehaviour
 
     public ParticleSystem CreateHitEffect()
     {
-        Object HitEffect = Resources.Load("Effect/SlashEffect");
+        Object HitEffect = Resources.Load("Effect/Hit_3_normal");
         GameObject effect = (GameObject)Instantiate(HitEffect); 
 
         return effect.GetComponent<ParticleSystem>();
     }
 
-   
+    public ParticleSystem CreateHealEffect()
+    {
+        Object HealEffect = Resources.Load("Effect/Level_Up_green");
+        GameObject effect = (GameObject)Instantiate(HealEffect);
+
+        return effect.GetComponent<ParticleSystem>();
+    }
+
+
 
 
 }
