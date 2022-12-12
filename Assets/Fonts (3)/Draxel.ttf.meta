@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 1be8e53fefffcd647a6b7be1ae8f7bb9
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Draxel
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 0c99f6613595b694aad1118b9b8a6285, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
